@@ -2,7 +2,7 @@
   "name": "colorify-log-message",
   "version": "1.0.0",
   "description": "",
-  "main": ".lib/index.js",
+  "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "type": "module",
   "scripts": {
