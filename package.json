@@ -2,11 +2,30 @@
   "name": "npm-package",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  
+  "keywords": [
+    "colorify console message",
+    "message colorify"
+  ],
+  "author": "Santosh Poudel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uniqueboy1/npm-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uniqueboy1/npm-package/issues"
+  },
+  "homepage": "https://github.com/uniqueboy1/npm-package#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["src/**/*"]
 }
