@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "first:colorify",
   "version": "1.0.0",
   "description": "",
   "main": ".lib/index.js",
